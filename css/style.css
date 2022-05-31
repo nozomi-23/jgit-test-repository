@@ -1,0 +1,202 @@
+@charset "UTF-8";
+
+body {
+  font-size: 18px;
+}
+
+/* ======================
+header
+======================== */
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #007;
+  padding: 1.5% 5%; 
+}
+nav ul li {
+  font-size: 1.2rem;
+  margin-left: 1.5%;
+}
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* ======================
+main
+======================== */
+#top {
+  height: 600px;
+  background: url(../img/top.png) no-repeat center;
+  background-size: cover;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+.top_wrapper {
+  background: radial-gradient(#639cb5, #007);
+  height: 25%;
+  width: 40%;
+  margin-right: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+.top_wrapper h1 {
+  font-size: 2.5rem;
+  letter-spacing: 0.3rem;
+  color: #fff;
+}
+/* ======================
+section service
+======================== */
+#service {
+  width: 80%;
+  margin: 5% auto;
+}
+.section_title {
+  font-size: 2.5rem;
+  text-align: center;
+  color: #007;
+  margin-bottom: 5%;
+}
+.service_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.service_left img {
+  width: 80%;
+  height: auto;
+}
+
+.service_right h3 {
+  font-size: 1.5rem;
+  color: #555;
+  /* color: #75d5ff; */
+  text-align: center;
+  padding: 2.5% 0;
+  letter-spacing: 0.2rem;
+  background: linear-gradient(transparent 70%, #75d5ff 70%);
+}
+.service_right p {
+  padding-top: 1rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #555;
+}
+/* ======================
+section news
+======================== */
+#news {
+  background: rgb(241, 241, 241);
+}
+#news h2 {
+  padding: 5% 0;
+  margin: 0;
+}
+.news_wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: 0 auto;
+  padding-bottom: 2.5%;
+  line-height: 1.5;
+}
+.news_wrapper dl {
+  display: flex;
+  padding: 15px;
+  border-bottom: solid 1px #ddd;
+}
+.news_wrapper dt {
+width: 20%;
+}
+.news_wrapper dd {
+width: 80%;
+}
+
+/* ======================
+section price
+======================== */
+#price {
+  width: 80%;
+  margin: 5% auto;
+}
+.price_wrapper table {
+  border: solid #75d5ff 5px;
+  width: 100%;
+  text-align: center;
+}
+.price_wrapper table tr {
+  border: solid #75d5ff 3px;
+  padding: 1%;
+}
+.price_wrapper table th {
+  border: solid #75d5ff 3px;
+  padding: 1%;
+}
+.price_wrapper table td {
+  border: solid #75d5ff 3px;
+  padding: 1%;
+}
+/* ======================
+section contact
+======================== */
+#contact {
+  background: rgb(241, 241, 241);
+}
+#contact h2{
+  padding: 5% 0;
+  margin: 0;
+}
+.form {
+  width: 70%;
+  margin: 0 auto;
+}
+label {
+  display: inline-block;
+  width: 30%;
+  line-height: 2;
+}
+input, 
+textarea {
+  box-sizing: border-box;
+  border: solid #ddd 1px;
+  width: 60%;
+  margin-bottom: 2.5%;
+}
+input {
+  padding: 1%;
+}
+textarea {
+  vertical-align: top;  
+  height: 200px;
+}
+.button {
+  text-align: center;
+}
+.button_submit {
+  padding: 1.5% 5%;
+  background-color: #555;
+  margin: 5% 0;
+  font-weight: bold;
+  border: none;
+  color: #fff;
+  transition: all 0.3s ;
+}
+.button_submit:hover {
+  padding: 1.5% 5%;
+  background-color: #888;
+  margin: 5% 0;
+  font-weight: bold;
+  color: #fff;
+}
+/* ======================
+footer
+======================== */
+#footer {
+  background-color: #444;
+  padding: 5%;
+  text-align: center;
+  color: #fff;
+}
